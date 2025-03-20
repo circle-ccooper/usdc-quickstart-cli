@@ -1,0 +1,25 @@
+{
+  "name": "usdc-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "transfer-usdc": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.5.0",
+    "permissionless": "^0.2.37",
+    "viem": "^2.23.12"
+  }
+}
